@@ -1,0 +1,23 @@
+﻿[
+  {
+    "HeroName": "Fillion",
+    "Survived": true,
+    "BossName": "Lord Viledrake",
+    "Victorious": true,
+    "Date": "25-04-2025"
+  },
+  {
+    "HeroName": "Roan",
+    "Survived": false,
+    "BossName": "The Basilisk",
+    "Victorious": false,
+    "Date": "17-05-2025"
+  },
+  {
+    "HeroName": "Lars",
+    "Survived": false,
+    "BossName": "Dread Scorpion",
+    "Victorious": true,
+    "Date": "09-06-2025"
+  }
+]
