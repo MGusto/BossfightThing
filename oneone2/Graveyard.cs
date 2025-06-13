@@ -37,7 +37,7 @@ namespace oneone2
             {
                 case '1':
                     Console.Clear();
-                    Console.WriteLine("+ Here lies those who lived out their days after defeating an evil boss +");
+                    Console.WriteLine("+ Here lies those who lived out their days after defeating an evil boss +\n");
                     foreach (var hero in graveyard.Where(h => h.Victorious && h.Survived))
                         Console.WriteLine($"- {hero.HeroName}, who fought {hero.BossName} on {hero.Date}, triumphed against evil and lived happily ever after -\n");
                     Console.WriteLine("\nPress any key to return...");
@@ -46,7 +46,7 @@ namespace oneone2
                     break;
                 case '2':
                     Console.Clear();
-                    Console.WriteLine("+ Here lies those who tragically fell, failing to defeat an evil boss +");
+                    Console.WriteLine("+ Here lies those who tragically fell, failing to defeat an evil boss +\n");
                     foreach (var hero in graveyard.Where(h => !h.Survived && !h.Victorious))
                         Console.WriteLine($"- {hero.HeroName}, who fought {hero.BossName} on {hero.Date}, tragically fell against the might of evil - \n");
                     Console.WriteLine("\nPress any key to return...");
@@ -55,7 +55,7 @@ namespace oneone2
                     break;
                 case '3':
                     Console.Clear();
-                    Console.WriteLine("+ Here lies those who paid the ultimate price of martyrdom, sacrificing their lives to defeat an evil boss +");
+                    Console.WriteLine("+ Here lies those who paid the ultimate price of martyrdom, sacrificing their lives to defeat an evil boss +\n");
                     foreach (var hero in graveyard.Where(h => h.Victorious && !h.Survived))
                         Console.WriteLine($"- {hero.HeroName}, who fought {hero.BossName} on {hero.Date}, vanquished evil but paid the ultimate price -\n");
                     Console.WriteLine("\nPress any key to return...");
